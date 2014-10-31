@@ -6,7 +6,7 @@ module.exports = function (grunt) {
 
   grunt.initConfig({
     jshint: {
-      all: ['Gruntfile.js', 'learnyounode.js', 'mymodule.js'],
+      all: ['Gruntfile.js', 'index.js'],
       options: {
         jshintrc: true
       }
