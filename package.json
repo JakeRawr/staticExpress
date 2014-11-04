@@ -4,7 +4,8 @@
   "description": "Express Practice",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test" : "node_modules/grunt-cli/bin/grunt test"
   },
   "keywords": [
     "Static",
@@ -12,7 +13,7 @@
     "node"
   ],
   "author": "Tsung Han (Jake)",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.10.1"
   },
