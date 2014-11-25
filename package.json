@@ -1,0 +1,31 @@
+{
+  "name": "StaticExpress",
+  "version": "0.0.0",
+  "description": "Express Practice",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node_modules/grunt-cli/bin/grunt test"
+  },
+  "keywords": [
+    "Static",
+    "Express",
+    "node"
+  ],
+  "author": "Tsung Han (Jake)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.10.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jscs": "^0.1.8",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^0.8.1"
+  },
+  "engines": {
+    "node": "0.10.x",
+    "npm": "1.1.x"
+  }
+}
